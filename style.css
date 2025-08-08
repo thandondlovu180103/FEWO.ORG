@@ -1,0 +1,267 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Header */
+header {
+    background: pink;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd1e3;
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fafafa;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: pink;
+  padding: 10px 20px;
+}
+
+.navbar .logo img {
+  height: 60px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #ffcccb;
+}
+
+/* Page Content */
+.content-section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.content-section h1 {
+  color: pink;
+  margin-bottom: 15px;
+}
+
+.content-section p {
+  margin-bottom: 15px;
+}
+
+/* Programs List Styling */
+.content-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content-section ul li {
+  font-weight: bold;
+  color: pink;
+  margin-top: 15px;
+}
+
+.content-section ul p {
+  margin-top: 5px;
+  font-weight: normal;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: pink;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hans.jpg') center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 80px 20px;
+    background-color: #8b3a62; /* fallback */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Mission & Vision */
+.mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background: white;
+    justify-content: center;
+}
+
+.mission-vision div {
+    flex: 1 1 300px;
+    background: #fff0f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Impact Section */
+.impact {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffe3ec;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.stats div {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Highlights Grid */
+.highlight-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.highlight-grid div {
+    flex: 1 1 300px;
+    max-width: 320px;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.highlight-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+/* How You Can Help */
+.help {
+    background: #fff0f6;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.help-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: pink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: black;
+}
+
+/* Upcoming Events */
+.events-preview {
+    background: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.events-preview ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    background: pink;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
